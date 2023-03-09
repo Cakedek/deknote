@@ -1,0 +1,21 @@
+{
+    "deknote": [
+      {
+        "ID": 1,
+        "title": "The Adventures of Alice",
+        "date_created": "2022-03-01",
+        "date_modified": "2022-03-05",
+        "background_color": "#F5A9F2",
+        "subject": "Adventure"
+      },
+      {
+        "ID": 2,
+        "title": "The Mystery of the Missing Diamond",
+        "date_created": "2022-02-28",
+        "date_modified": "2022-03-04",
+        "background_color": "#5DADE2",
+        "subject": "Mystery"
+      }
+    ]
+  }
+  
