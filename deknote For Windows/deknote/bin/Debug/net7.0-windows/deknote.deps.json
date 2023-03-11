@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "deknote/1.0.0": {
+      "deknote/1.0-b": {
         "dependencies": {
           "Microsoft.Web.WebView2": "1.0.1587.40",
           "Microsoft.Xaml.Behaviors.Wpf": "1.1.39",
@@ -68,7 +68,7 @@
     }
   },
   "libraries": {
-    "deknote/1.0.0": {
+    "deknote/1.0-b": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

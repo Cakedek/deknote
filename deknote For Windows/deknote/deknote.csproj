@@ -1,11 +1,18 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
+  <PropertyGroup Label="Globals">
+    <WebView2UseWinRT>False</WebView2UseWinRT>
+  </PropertyGroup>
+
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net7.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
     <UseWindowsForms>true</UseWindowsForms>
+    <Platforms>AnyCPU;ARM64</Platforms>
+    <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
+    <Version>$(VersionPrefix)1.0-b</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -22,6 +29,10 @@
 
   <ItemGroup>
     <Resource Include="font\Prompt-MediumItalic.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="preference_page\" />
   </ItemGroup>
 
 </Project>

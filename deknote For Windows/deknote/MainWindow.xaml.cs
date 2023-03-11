@@ -69,10 +69,9 @@ namespace deknote
             bananalistbox.SelectionMode = System.Windows.Controls.SelectionMode.Single;
         }
 
-        private string filename;
         private void bananalistbox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            MyTextBox.Text = bananalistbox.SelectedItem?.ToString();
+            cake_title.Text = bananalistbox.SelectedItem?.ToString();
 
             string selectedTitle = bananalistbox.SelectedItem?.ToString();
 
@@ -127,7 +126,13 @@ namespace deknote
             windowsshow_welcome.ShowDialog();
         }
 
-        // ปุ่มเปิดไฟล์ json 
+
+
+
+
+        // =======================================
+        // ปุ่มเปิดไฟล์
+        // =======================================
 
         private void cake_open_Click(object sender, RoutedEventArgs e)
         {
@@ -143,6 +148,12 @@ namespace deknote
             }
         }
 
+
+
+
+        // =======================================
+        // ปุ่มเปิดไฟล์
+        // =======================================
         private void cake_open1_Click(object sender, RoutedEventArgs e)
         {
             Microsoft.Win32.OpenFileDialog dialog = new Microsoft.Win32.OpenFileDialog();
@@ -156,5 +167,75 @@ namespace deknote
                 cake_openfilesystem.cake_loadfile_json(filePath, bananalistbox);
             }
         }
+
+
+
+        // =======================================
+        // ปุ่มบันทึกโน๊ตของเรา
+        // =======================================
+        private void cakesave_button_Click(object sender, RoutedEventArgs e)
+        {
+            // รับรายการที่เลือกในปัจจุบันในกล่องรายการ
+            int selectedIndex = bananalistbox.SelectedIndex;
+            string selectedTitle = bananalistbox.SelectedItem?.ToString();
+
+            // ตรวจสอบว่าได้เลือกชื่อแล้ว
+            if (!string.IsNullOrEmpty(selectedTitle))
+            {
+                try
+                {
+                    // อ่านตำแหน่งไฟล์ชั่วคราวจากไฟล์ JSON
+                    string tempJson = File.ReadAllText("cake_temporary.json");
+                    var tempFile = JsonConvert.DeserializeObject<dynamic>(tempJson);
+                    string filePath = tempFile.temporary_file_location;
+
+                    // อ่านไฟล์ JSON
+                    string json = File.ReadAllText(filePath);
+
+                    // deserialize the JSON data
+                    Dictionary<string, List<Dictionary<string, object>>> data = JsonConvert.DeserializeObject<Dictionary<string, List<Dictionary<string, object>>>>(json);
+
+                    // ค้นหารายการที่มีชื่อที่เลือก
+                    List<Dictionary<string, object>> deknote = data["deknote"];
+                    foreach (Dictionary<string, object> item in deknote)
+                    {
+                        if (item["title"].ToString() == selectedTitle)
+                        {
+                            // อัปเดตรายการพจนานุกรมด้วยค่าใหม่
+                            item["title"] = cake_title.Text;
+                            item["subject"] = new TextRange(cake_sub.Document.ContentStart, cake_sub.Document.ContentEnd).Text.Trim();
+                            item["date_modified"] = DateTime.Now.ToString("yyyy-MM-dd");
+
+                            // ทำให้ข้อมูลที่อัปเดตเป็นอนุกรมเป็น JSON และบันทึกลงในไฟล์
+                            string updatedJson = JsonConvert.SerializeObject(data, Formatting.Indented);
+                            File.WriteAllText(filePath, updatedJson);
+
+                            // อัปเดตรายการกล่องรายการด้วยชื่อเรื่องใหม่
+                            bananalistbox.Items[selectedIndex] = cake_title.Text;
+
+                            // เลือกรายการที่อัปเดตในกล่องรายการ
+                            bananalistbox.SelectedIndex = selectedIndex;
+
+                            break;
+                        }
+                    }
+                }
+                catch (IOException)
+                {
+                    System.Windows.MessageBox.Show("The selected file does not exist.");
+                }
+                catch (JsonException)
+                {
+
+                }
+            }
+        }
+
+        private void preference_button_Click(object sender, RoutedEventArgs e)
+        {
+            preference windows_pre = new preference();
+            windows_pre.ShowDialog();
+        }
     }
+
 }

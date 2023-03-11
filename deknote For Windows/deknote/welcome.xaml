@@ -7,6 +7,7 @@
         xmlns:local="clr-namespace:deknote"
         xmlns:Wpf="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf" x:Class="deknote.welcome"
         mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
         Title="welcome" Height="487" Width="400"
         WindowStyle="ToolWindow"
         ResizeMode="NoResize" >
