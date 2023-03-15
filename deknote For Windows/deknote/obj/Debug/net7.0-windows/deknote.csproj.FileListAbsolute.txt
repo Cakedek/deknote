@@ -63,3 +63,7 @@ C:\Users\pools\OneDrive\เดสก์ท็อป\deknote\deknote For Windows\
 C:\Users\pools\OneDrive\เดสก์ท็อป\deknote\deknote For Windows\deknote\obj\Debug\net7.0-windows\deknote_Content.g.cs
 C:\Users\pools\OneDrive\เดสก์ท็อป\deknote\deknote For Windows\deknote\obj\Debug\net7.0-windows\preference.g.cs
 C:\Users\pools\OneDrive\เดสก์ท็อป\deknote\deknote For Windows\deknote\obj\Debug\net7.0-windows\preference.baml
+C:\Users\pools\OneDrive\เดสก์ท็อป\deknote\deknote For Windows\deknote\obj\Debug\net7.0-windows\cake_messageBox\cake_warning_messagebox.g.cs
+C:\Users\pools\OneDrive\เดสก์ท็อป\deknote\deknote For Windows\deknote\obj\Debug\net7.0-windows\cake_messageBox\cake_warning_messagebox.baml
+C:\Users\pools\OneDrive\เดสก์ท็อป\deknote\deknote For Windows\deknote\obj\Debug\net7.0-windows\about.g.cs
+C:\Users\pools\OneDrive\เดสก์ท็อป\deknote\deknote For Windows\deknote\obj\Debug\net7.0-windows\about.baml

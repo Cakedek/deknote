@@ -9,9 +9,11 @@
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
         Title="welcome" Height="487" Width="400"
+        SizeToContent="WidthAndHeight"
         WindowStyle="ToolWindow"
         ResizeMode="NoResize" >
 
+    <StackPanel Height="460" Width="400">
     <Grid>
         <Label Content="Welcome to Deknote" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
         <Label Content="a simple note-taking app." HorizontalAlignment="Left" Margin="10,52,0,0" VerticalAlignment="Top"/>
@@ -21,12 +23,7 @@
             </Button.Effect>
         </Button>
         <Label Content="Deknote is part of an open-source software project from Cakedek. &#xA;40% of the code was written using ChatGPT to develop this app. Learn more"  Margin="0,342,0,0" FontSize="9" HorizontalAlignment="Center" Width="312" Height="34" VerticalAlignment="Top"/>
-
-
-
-        
-
-
-
-    </Grid>
+            <Image HorizontalAlignment="Center" Height="100" VerticalAlignment="Center" Width="100" Source="/assets/img/cake_cake_warning_messagebox.png"/>
+        </Grid>
+    </StackPanel>
 </Window>

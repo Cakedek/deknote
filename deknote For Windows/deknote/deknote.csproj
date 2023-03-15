@@ -2,6 +2,7 @@
 
   <PropertyGroup Label="Globals">
     <WebView2UseWinRT>False</WebView2UseWinRT>
+    <Configurations>Debug;Release;cakesel</Configurations>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -13,12 +14,19 @@
     <Platforms>AnyCPU;ARM64</Platforms>
     <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
     <Version>$(VersionPrefix)1.0-b</Version>
+    <PackageIcon>icon_01.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="5xua5hfe.afj~" />
+    <None Remove="assets\img\cake_cake_warning_messagebox.png" />
     <None Remove="font\Prompt-Medium.ttf" />
     <None Remove="font\Prompt-MediumItalic.ttf" />
+    <None Remove="icon_01.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icon_01.ico" />
   </ItemGroup>
 
   <ItemGroup>
@@ -28,11 +36,19 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="assets\img\cake_cake_warning_messagebox.png" />
     <Resource Include="font\Prompt-MediumItalic.ttf" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="preference_page\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\icon\icon_01.png" Link="assets\img\icon_01.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

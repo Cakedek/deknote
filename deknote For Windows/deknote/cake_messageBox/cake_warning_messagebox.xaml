@@ -1,0 +1,21 @@
+﻿<Window x:Class="deknote.cake_messageBox.cake_warning_messagebox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:deknote.cake_messageBox"
+        mc:Ignorable="d"
+        WindowStyle="ToolWindow"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        SizeToContent="WidthAndHeight"
+        Title="" Height="325" Width="305">
+    <StackPanel Width="290" Margin="8,0,7,1">
+        <Grid>
+            <Button x:Name="cake_ok" Content="OK" Margin="10,264,10,12" Click="cake_ok_Click" RenderTransformOrigin="0.5,0.5"/>
+            <Image HorizontalAlignment="Center" Height="59"  Source="/assets/img/cake_cake_warning_messagebox.png" Margin="0,10,0,243"/>
+            <Label HorizontalContentAlignment="Center" Content="Error" Margin="0,69,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Prompt" FontSize="20"/>
+            <Label x:Name="cakeiron" HorizontalContentAlignment="Center" Content="Label" Margin="10,114,10,53" FontSize="15"/>
+        </Grid>
+    </StackPanel>
+</Window>

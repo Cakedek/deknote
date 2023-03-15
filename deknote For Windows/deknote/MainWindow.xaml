@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:deknote"
         mc:Ignorable="d"
+        Icon="icon_01.ico"
         WindowStartupLocation="CenterScreen"
-        Title="deknote" Height="450" Width="800">
+        Title="deknote" Height="500" Width="800">
     <Grid>
         <ListBox x:Name="bananalistbox" FontFamily="{StaticResource PromptMediumFontFamily}" HorizontalAlignment="Left" Width="243" SelectionChanged="bananalistbox_SelectionChanged" Margin="0,0,0,28"/>
         <Rectangle HorizontalAlignment="Left" Stroke="Black" Width="243"/>
@@ -18,6 +19,8 @@
             <Button x:Name="cakesave_button" Content="Save" Click="cakesave_button_Click" />
             <Button x:Name="welcome" Content="Welcome" Click="welcome_Click"/>
             <Button x:Name="preference_button" Content="Preference" Click="preference_button_Click" />
+            <Button x:Name="about_bar" Content="About" Click="about_bar_Click"/>
+            <Button x:Name="caketest" Content="TEST" Click="caketest_Click" />
         </ToolBar>
         
 

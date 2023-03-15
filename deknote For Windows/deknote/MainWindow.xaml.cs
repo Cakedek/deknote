@@ -18,6 +18,7 @@ using Newtonsoft.Json;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.Window;
 using deknote.cake_class;
+using deknote.cake_messageBox;
 
 namespace deknote
 {
@@ -27,22 +28,10 @@ namespace deknote
     /// </summary>
     public partial class MainWindow : Window
     {
-
-        private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
-            // Check the operating system version
-            OperatingSystem os = Environment.OSVersion;
-            Version vs = os.Version;
-            if (vs.Major < 6 || (vs.Major == 6 && vs.Minor < 3))
-            {
-                // Show an error message and close the program
-                this.Close();
-            }
-        }
-
         public MainWindow()
         {
             InitializeComponent();
+            SizeChanged += cakeWindow_SizeChanged;
             WebClient client = new WebClient();
 
             try
@@ -68,6 +57,29 @@ namespace deknote
             // set the ListBox to display items on separate lines
             bananalistbox.SelectionMode = System.Windows.Controls.SelectionMode.Single;
         }
+
+        //ตรวจสอบเวอร์ชั่น Windows
+        private void Window_Loaded(object sender, RoutedEventArgs e){
+            OperatingSystem os = Environment.OSVersion;
+            Version vs = os.Version;
+            if (vs.Major < 6 || (vs.Major == 6 && vs.Minor < 3)){
+                this.Close();
+            }
+        }
+
+        //ย่อหน้าต่างไม่ให้มากเกินไป
+        private void cakeWindow_SizeChanged(object sender, SizeChangedEventArgs e){
+            // กว้าง
+            if (Width < 800){
+                Width = 800;
+            }
+            //สูง
+            if (Height < 500){
+                Height = 500;
+            }
+        }
+
+
 
         private void bananalistbox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
@@ -110,7 +122,10 @@ namespace deknote
                 }
                 catch (IOException)
                 {
-                    System.Windows.MessageBox.Show("The selected file does not exist.");
+                    cake_warning_messagebox cakemessageBox = new cake_warning_messagebox();
+                    cakemessageBox.cakemessage = "The selected file does not exist.";
+                    cakemessageBox.ShowDialog();
+                    if (cakemessageBox.DialogResult == true){}else{}
                 }
                 catch (JsonException)
                 {
@@ -144,7 +159,7 @@ namespace deknote
             if (result == true)
             {
                 string filePath = dialog.FileName;
-                cake_openfilesystem.cake_loadfile_json(filePath, bananalistbox);
+                cake_openfilesystem.cake_loadfile_json(filePath, bananalistbox, cake_sub);
             }
         }
 
@@ -164,7 +179,7 @@ namespace deknote
             if (result == true)
             {
                 string filePath = dialog.FileName;
-                cake_openfilesystem.cake_loadfile_json(filePath, bananalistbox);
+                cake_openfilesystem.cake_loadfile_json(filePath, bananalistbox, cake_sub);
             }
         }
 
@@ -235,6 +250,19 @@ namespace deknote
         {
             preference windows_pre = new preference();
             windows_pre.ShowDialog();
+        }
+
+        private void caketest_Click(object sender, RoutedEventArgs e)
+        {
+            cake_warning_messagebox cakemessageBox = new cake_warning_messagebox();
+            cakemessageBox.cakemessage = "This is an example text box window.";
+            cakemessageBox.ShowDialog();
+        }
+
+        private void about_bar_Click(object sender, RoutedEventArgs e)
+        {
+            about win_about = new about();
+            win_about.ShowDialog();
         }
     }
 

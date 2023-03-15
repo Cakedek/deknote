@@ -7,12 +7,18 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "deknote", "deknote\deknote.
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		cakesel|Any CPU = cakesel|Any CPU
+		cakesel|ARM64 = cakesel|ARM64
 		Debug|Any CPU = Debug|Any CPU
 		Debug|ARM64 = Debug|ARM64
 		Release|Any CPU = Release|Any CPU
 		Release|ARM64 = Release|ARM64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1DA1EBB-CA4E-480F-BAF7-A794872278F6}.cakesel|Any CPU.ActiveCfg = cakesel|Any CPU
+		{F1DA1EBB-CA4E-480F-BAF7-A794872278F6}.cakesel|Any CPU.Build.0 = cakesel|Any CPU
+		{F1DA1EBB-CA4E-480F-BAF7-A794872278F6}.cakesel|ARM64.ActiveCfg = cakesel|ARM64
+		{F1DA1EBB-CA4E-480F-BAF7-A794872278F6}.cakesel|ARM64.Build.0 = cakesel|ARM64
 		{F1DA1EBB-CA4E-480F-BAF7-A794872278F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F1DA1EBB-CA4E-480F-BAF7-A794872278F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1DA1EBB-CA4E-480F-BAF7-A794872278F6}.Debug|ARM64.ActiveCfg = Debug|Any CPU
