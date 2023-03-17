@@ -70,7 +70,7 @@ namespace deknote.cake_messageBox {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/deknote;V1.0.0.0;component/cake_messagebox/cake_warning_messagebox.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/deknote;component/cake_messagebox/cake_warning_messagebox.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\cake_messageBox\cake_warning_messagebox.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

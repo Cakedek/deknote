@@ -137,7 +137,7 @@ namespace deknote
 
         private void welcome_Click(object sender, RoutedEventArgs e)
         {
-            welcome windowsshow_welcome = new welcome();
+            cake_welcome windowsshow_welcome = new cake_welcome();
             windowsshow_welcome.ShowDialog();
         }
 
@@ -252,17 +252,56 @@ namespace deknote
             windows_pre.ShowDialog();
         }
 
-        private void caketest_Click(object sender, RoutedEventArgs e)
-        {
-            cake_warning_messagebox cakemessageBox = new cake_warning_messagebox();
-            cakemessageBox.cakemessage = "This is an example text box window.";
-            cakemessageBox.ShowDialog();
-        }
-
         private void about_bar_Click(object sender, RoutedEventArgs e)
         {
-            about win_about = new about();
+            cake_about win_about = new cake_about();
             win_about.ShowDialog();
+        }
+
+        private void cake_add_items_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                string tempJson = File.ReadAllText("cake_temporary.json");
+                var tempFile = JsonConvert.DeserializeObject<dynamic>(tempJson);
+                string filePath = tempFile.temporary_file_location;
+
+                // read the existing JSON data from the file
+                string json = File.ReadAllText(filePath);
+
+                // deserialize the JSON data
+                Dictionary<string, List<Dictionary<string, object>>> data = JsonConvert.DeserializeObject<Dictionary<string, List<Dictionary<string, object>>>>(json);
+
+                // create a new item dictionary and prompt the user for input
+                Dictionary<string, object> newItem = new Dictionary<string, object>();
+                newItem.Add("ID", data["deknote"].Count + 1);
+                newItem.Add("title", "");
+                newItem.Add("date_created", DateTime.Today.ToString("yyyy-MM-dd"));
+                newItem.Add("date_modified", DateTime.Today.ToString("yyyy-MM-dd"));
+                newItem.Add("background_color", "");
+                newItem.Add("subject", "");
+
+                newItem["title"] = "New Ttems";
+                newItem["subject"] = "";
+
+                // add the new item to the JSON data
+                data["deknote"].Add(newItem);
+
+                // serialize the updated data and save it to the file
+                string updatedJson = JsonConvert.SerializeObject(data, Formatting.Indented);
+                File.WriteAllText(filePath, updatedJson);
+
+                // add the new title to the ListBox
+                bananalistbox.Items.Add(newItem["title"]);
+            }
+            catch (IOException)
+            {
+                
+            }
+            catch (JsonException)
+            {
+                
+            }
         }
     }
 

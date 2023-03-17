@@ -10,8 +10,9 @@
         Title="deknote" Height="500" Width="800">
     <Grid>
         <ListBox x:Name="bananalistbox" FontFamily="{StaticResource PromptMediumFontFamily}" HorizontalAlignment="Left" Width="243" SelectionChanged="bananalistbox_SelectionChanged" Margin="0,0,0,28"/>
-        <Rectangle HorizontalAlignment="Left" Stroke="Black" Width="243"/>
+        <Rectangle HorizontalAlignment="Left" Stroke="Black" Width="243" Height="NaN" Margin="0,0,0,56"/>
         <Button x:Name="cake_open" Content="Open" FontFamily="{DynamicResource PromptMediumFontFamily}" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="28" Width="243" Click="cake_open_Click"/>
+        <Button x:Name="cake_add_items" Content="add" FontFamily="{DynamicResource PromptMediumFontFamily}" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="28" Width="243" Margin="0,0,0,28" Click="cake_add_items_Click"/>
         <Rectangle Margin="243,0,0,0" Fill="#FFF1F1F1"/>
         <TextBox x:Name="cake_title" Height="42" Margin="260,25,0,0" VerticalAlignment="Top" BorderBrush="{x:Null}" FontSize="30" Text="select item" Background="{x:Null}" FontFamily="Prompt"/>
         <ToolBar Height="25" VerticalAlignment="Top" Margin="243,0,0,0" FontFamily="Prompt">
@@ -20,16 +21,16 @@
             <Button x:Name="welcome" Content="Welcome" Click="welcome_Click"/>
             <Button x:Name="preference_button" Content="Preference" Click="preference_button_Click" />
             <Button x:Name="about_bar" Content="About" Click="about_bar_Click"/>
-            <Button x:Name="caketest" Content="TEST" Click="caketest_Click" />
+
         </ToolBar>
-        
+
 
         <!-- เนื้อหาของเราในวันนี้ -->
-        <Border Grid.Row="0" Margin="250,86,8,0" CornerRadius="10, 10, 0, 0" BorderThickness="1" BorderBrush="#FFA5A5A5" Background="White">
+        <Border Grid.Row="0" Margin="250,86,0,0" CornerRadius="10, 0, 0, 0" BorderThickness="1" BorderBrush="#FFA5A5A5" Background="White" Width="NaN">
             <Border.Effect>
                 <DropShadowEffect Direction="0" BlurRadius="10" Opacity="0.4" ShadowDepth="0"/>
             </Border.Effect>
-            <RichTextBox x:Name="cake_sub"  Margin="9,9,15,0"  BorderBrush="{x:Null}" Background="{x:Null}" FontSize="15" SelectionTextBrush="{x:Null}" FontFamily="Prompt">
+            <RichTextBox x:Name="cake_sub"  Margin="9,9,-1,0"  ScrollViewer.VerticalScrollBarVisibility="Visible" BorderBrush="{x:Null}" Background="{x:Null}" FontSize="15" SelectionTextBrush="{x:Null}" FontFamily="Prompt" Width="NaN">
                 <FlowDocument>
                     <Paragraph>
                         <Run Text="select item"/>

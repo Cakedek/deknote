@@ -1,0 +1,23 @@
+﻿<Window x:Class="deknote.cake_about"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:deknote"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        SizeToContent="WidthAndHeight"
+        ResizeMode="NoResize"
+        Title="about" Height="400" Width="500">
+    <Grid Height="400" Width="500">
+        <Image HorizontalAlignment="Left" Height="350" Width="170" Margin="10,10,0,0" VerticalAlignment="Top" Source="/assets/img/cake_abot_img.png" />
+        <Image HorizontalAlignment="Left" Height="19" Margin="10,370,0,0" VerticalAlignment="Top" Width="85" Source="/assets/img/cakedek-logo-mini.png"/>
+        <Label Content="Deknote For Windows" HorizontalAlignment="Left" Margin="200,20,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" FontFamily="Prompt"/>
+        <Label Content="Version" HorizontalAlignment="Left" Margin="200,71,0,0" VerticalAlignment="Top" FontFamily="Prompt"/>
+        <Label Content="1.0-b" HorizontalAlignment="Left" Margin="255,71,0,0" VerticalAlignment="Top" FontFamily="Prompt"/>
+        <Label Content="Deknote is part of an open-source software project from Cakedek. &#xA;of the code was written using ChatGPT to develop this app. "  Margin="194,356,0,0" FontSize="9" HorizontalAlignment="Left" Width="310" Height="34" VerticalAlignment="Top" FontFamily="Prompt"/>
+        <TextBox x:Name="cake_cpuname_cl" HorizontalAlignment="Left" Margin="200,331,0,0" TextWrapping="Wrap" Text="0000" VerticalAlignment="Top" Width="290"/>
+
+    </Grid>
+</Window>
+

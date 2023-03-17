@@ -19,6 +19,8 @@
 
   <ItemGroup>
     <None Remove="5xua5hfe.afj~" />
+    <None Remove="assets\img\cakedek-logo-mini.png" />
+    <None Remove="assets\img\cake_abot_img.png" />
     <None Remove="assets\img\cake_cake_warning_messagebox.png" />
     <None Remove="font\Prompt-Medium.ttf" />
     <None Remove="font\Prompt-MediumItalic.ttf" />
@@ -26,13 +28,20 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="icon_01.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="assets\img\cakedek-logo-mini.png" />
+    <Resource Include="assets\img\cake_abot_img.png" />
     <Resource Include="icon_01.ico" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1587.40" />
-    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.39" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.CodeDom" Version="7.0.0" />
+    <PackageReference Include="System.Management" Version="7.0.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -42,13 +51,6 @@
 
   <ItemGroup>
     <Folder Include="preference_page\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="..\..\icon\icon_01.png" Link="assets\img\icon_01.png">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
   </ItemGroup>
 
 </Project>

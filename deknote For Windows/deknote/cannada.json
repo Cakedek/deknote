@@ -1,0 +1,308 @@
+{
+  "deknote": [
+    {
+      "ID": 1,
+      "title": "A Journey to Niagara Falls",
+      "date_created": "2023-03-01",
+      "date_modified": "2023-03-02",
+      "background_color": "#FFF",
+      "subject": "In this story, a group of friends embark on a\r\ntrip to the breathtaking Niagara Falls."
+    },
+    {
+      "ID": 2,
+      "title": "The Great Canadian Road Trip",
+      "date_created": "2023-03-03",
+      "date_modified": "2023-03-04",
+      "background_color": "#FFF",
+      "subject": "Join a family as they travel across Canada,\r\nvisiting major cities and landmarks."
+    },
+    {
+      "ID": 3,
+      "title": "Vancouver's Hidden Gems",
+      "date_created": "2023-03-05",
+      "date_modified": "2023-03-06",
+      "background_color": "#FFF",
+      "subject": "Discover the lesser-known attractions and\r\nunique experiences in Vancouver, British Columbia."
+    },
+    {
+      "ID": 4,
+      "title": "Winter Wonderland in Quebec City",
+      "date_created": "2023-03-07",
+      "date_modified": "2023-03-08",
+      "background_color": "#FFF",
+      "subject": "Experience the magic of Quebec City during\r\nits annual Winter Carnival and explore the historic city center."
+    },
+    {
+      "ID": 5,
+      "title": "The Untamed Beauty of Banff National Park",
+      "date_created": "2023-03-09",
+      "date_modified": "2023-03-10",
+      "background_color": "#FFF",
+      "subject": "Immerse yourself in the natural wonders of\r\nBanff National Park, from its turquoise lakes to its snow-capped peaks."
+    },
+    {
+      "ID": 6,
+      "title": "A Maritime Adventure in Nova Scotia",
+      "date_created": "2023-03-11",
+      "date_modified": "2566-03-16",
+      "background_color": "#FFF",
+      "subject": "geggegegeegeergergegrergergergergerergergegergerergergergregggerreerggggereereggererreggggreerrereerereeg44544454yt5634ereewsaassssasasasNova Scotia, located on Canada's eastern coast, is an ideal destination for marine adventures. One such adventure that perfectly showcases the province's beauty and marine life is a day-long sailing tour of the Bay of Fundy.\r\nsasasasa\r\n\r\nsdadadadadasad\r\n\r\nItinerary:\r\n\r\nMorning:\r\n\r\nThe adventure begins early in the morning as you board a traditional schooner in the charming coastal town of Digby. After a brief safety orientation, the captain and crew set sail, heading toward the world-famous Bay of Fundy. As the boat leaves the harbor, you'll be treated to stunning views of the rocky coastline and the picturesque fishing villages that dot the landscape.\r\n\r\nLate Morning:sdfdsfdsfsdfsf\r\ns sadadsad\r\nAs the schooner ventures further into the bay, the crew begins to share fascinating information about the region's geology, history, and marine life. You'll learn about the unique tidal patterns in the Bay of Fundy, which can create tidal ranges of up to 50 feet (15 meters) – the highest in the world. The crew will point out local landmarks, including the iconic Three Sisters sea stacks, and you'll have the chance to spot various seabirds such as puffins, gannets, and cormorants.\r\n\r\nLunchtime:\r\n\r\nThe crew serves a delicious locally-sourced seafood lunch on board, including favorites like Digby scallops and Atlantic lobster. Vegetarian options are also available. As you enjoy your meal, you'll have the opportunity to chat with fellow adventurers and take in the breathtaking scenery around you.\r\n\r\nAfternoon:\r\n\r\nThe afternoon is dedicated to wildlife watching. The Bay of Fundy is home to a diverse array of marine life, including various species of whales, dolphins, and porpoises. With the help of knowledgeable guides, you'll have the chance to spot humpback whales, fin whales, and even the rare North Atlantic right whale. The crew may also deploy a hydrophone, allowing you to listen to the enchanting songs of these gentle giants.\r\n\r\nLate Afternoon:\r\n\r\nAs the sun begins to set, the schooner starts to make its way back to Digby. You'll enjoy a final opportunity to soak in the magnificent views of the coastline, snap some memorable photos, and maybe even catch a glimpse of a playful seal or two.\r\n\r\nEvening:\r\n\r\nUpon returning to the harbor, the crew will bid you farewell, and you'll disembark with a newfound appreciation for the beauty and wonder of Nova Scotia's marine ecosystem. This memorable day-long adventure will surely be the highlight of your visit to this incredible province."
+    },
+    {
+      "ID": 7,
+      "title": "The Northern Lights in the Yukon",
+      "date_created": "2023-03-13",
+      "date_modified": "2023-03-14",
+      "background_color": "#FFF",
+      "subject": "Embark on a journey to witness the\r\nbreathtaking Northern Lights in the remote wilderness of the Yukon Territory."
+    },
+    {
+      "ID": 8,
+      "title": "Calgary Stampede: The Greatest Outdoor Show on Earth",
+      "date_created": "2023-03-15",
+      "date_modified": "2023-03-16",
+      "background_color": "#FFF",
+      "subject": "Experience the excitement of the annual\r\nCalgary Stampede, a world-class rodeo and festival in Alberta."
+    },
+    {
+      "ID": 9,
+      "title": "Toronto: A Multicultural Metropolis",
+      "date_created": "2023-03-17",
+      "date_modified": "2023-03-18",
+      "background_color": "#FFF",
+      "subject": "Explore the vibrantculture and diverse neighborhoods of\r\nToronto, one of the most multicultural cities in the world."
+    },
+    {
+      "ID": 10,
+      "title": "The Canadian Rockies: A Hiker's Paradise",
+      "date_created": "2023-03-19",
+      "date_modified": "2023-03-20",
+      "background_color": "#FFF",
+      "subject": "Join a group of adventurers as they explore\r\nthe majestic Canadian Rockies, tackling challenging hikes and breathtaking vistas."
+    },
+    {
+      "ID": 11,
+      "title": "The Distinct Charm of Montreal",
+      "date_created": "2023-03-21",
+      "date_modified": "2023-03-22",
+      "background_color": "#FFF",
+      "subject": "Discover the unique blend of French and\r\nEnglish culture in Montreal, from its historic architecture to its thriving arts scene."
+    },
+    {
+      "ID": 12,
+      "title": "Whale Watching in British Columbia",
+      "date_created": "2023-03-23",
+      "date_modified": "2023-03-24",
+      "background_color": "#FFF",
+      "subject": "Embark on an unforgettable whale-watching\r\nexpedition off the coast of British Columbia, home to a diverse array of marine life."
+    },
+    {
+      "ID": 13,
+      "title": "Polar Bears of Churchill, Manitoba",
+      "date_created": "2023-03-25",
+      "date_modified": "2023-03-26",
+      "background_color": "#FFF",
+      "subject": "Travel to the remote town of Churchill,\r\nManitoba, known as the 'Polar Bear Capital of the World.'"
+    },
+    {
+      "ID": 14,
+      "title": "The Culinary Delights of Prince Edward Island",
+      "date_created": "2023-03-27",
+      "date_modified": "2023-03-28",
+      "background_color": "#FFF",
+      "subject": "Savor the delicious seafood and farm-to-table\r\ncuisine of Prince Edward Island, while exploring its beautiful landscapes."
+    },
+    {
+      "ID": 15,
+      "title": "The Indigenous Heritage of Canada",
+      "date_created": "2023-03-29",
+      "date_modified": "2023-03-30",
+      "background_color": "#FFF",
+      "subject": "Learn about the rich history and cultural\r\nheritage of Canada's Indigenous peoples through their art, traditions, and stories."
+    },
+    {
+      "ID": 16,
+      "title": "Ottawa: The Nation's Capital",
+      "date_created": "2023-03-31",
+      "date_modified": "2023-04-01",
+      "background_color": "#FFF",
+      "subject": "Explore the landmarks and attractions of\r\nOttawa, from Parliament Hill to the vibrant Byward Market."
+    },
+    {
+      "ID": 17,
+      "title": "The Trans-Canada Trail: A Cross-Country Odyssey",
+      "date_created": "2023-04-02",
+      "date_modified": "2023-04-03",
+      "background_color": "#FFF",
+      "subject": "Follow the journey of a group of hikers as\r\nthey traverse the Trans-Canada Trail, the world's longest recreational trail."
+    },
+    {
+      "ID": 18,
+      "title": "The Icefields Parkway: A Scenic Drive",
+      "date_created": "2023-04-04",
+      "date_modified": "2023-04-05",
+      "background_color": "#FFF",
+      "subject": "Take a scenic drive along the Icefields\r\nParkway, marveling at the stunning landscapes of the Canadian Rockies."
+    },
+    {
+      "ID": 19,
+      "title": "The Heritage and Beauty of Newfoundland and Labrador",
+      "date_created": "2023-04-06",
+      "date_modified": "2023-04-07",
+      "background_color": "#FFF",
+      "subject": "Experience the rugged beauty and rich\r\ncultural heritage of Newfoundland and Labrador, from its icebergs to its charming fishing villages."
+    },
+    {
+      "ID": 20,
+      "title": "The Wildlife of Canada's National Parks",
+      "date_created": "2023-04-08",
+      "date_modified": "2566-03-16",
+      "background_color": "#FFF",
+      "subject": "Discover the diverse wildlife that inhabits\r\nCanada's national parks, from grizzly bears to caribou and beyond."
+    },
+    {
+      "ID": 21,
+      "title": "dsadad",
+      "date_created": "2566-03-16",
+      "date_modified": "2566-03-16",
+      "background_color": "",
+      "subject": "sdsds"
+    },
+    {
+      "ID": 22,
+      "title": "Windows 95",
+      "date_created": "2566-03-16",
+      "date_modified": "2566-03-16",
+      "background_color": "",
+      "subject": "Bill"
+    },
+    {
+      "ID": 23,
+      "title": "ผลประเมินงาน",
+      "date_created": "2566-03-16",
+      "date_modified": "2566-03-17",
+      "background_color": "",
+      "subject": "ผล"
+    },
+    {
+      "ID": 24,
+      "title": "New Ttems",
+      "date_created": "2566-03-16",
+      "date_modified": "2566-03-16",
+      "background_color": "",
+      "subject": ""
+    },
+    {
+      "ID": 25,
+      "title": "New Ttems",
+      "date_created": "2566-03-16",
+      "date_modified": "2566-03-16",
+      "background_color": "",
+      "subject": ""
+    },
+    {
+      "ID": 26,
+      "title": "New Ttems",
+      "date_created": "2566-03-16",
+      "date_modified": "2566-03-16",
+      "background_color": "",
+      "subject": ""
+    },
+    {
+      "ID": 27,
+      "title": "New Ttems",
+      "date_created": "2566-03-16",
+      "date_modified": "2566-03-16",
+      "background_color": "",
+      "subject": ""
+    },
+    {
+      "ID": 28,
+      "title": "New Ttems",
+      "date_created": "2566-03-16",
+      "date_modified": "2566-03-16",
+      "background_color": "",
+      "subject": ""
+    },
+    {
+      "ID": 29,
+      "title": "New Ttems",
+      "date_created": "2566-03-16",
+      "date_modified": "2566-03-16",
+      "background_color": "",
+      "subject": ""
+    },
+    {
+      "ID": 30,
+      "title": "New Ttems",
+      "date_created": "2566-03-16",
+      "date_modified": "2566-03-16",
+      "background_color": "",
+      "subject": ""
+    },
+    {
+      "ID": 31,
+      "title": "New Ttems",
+      "date_created": "2566-03-16",
+      "date_modified": "2566-03-16",
+      "background_color": "",
+      "subject": ""
+    },
+    {
+      "ID": 32,
+      "title": "New Ttems",
+      "date_created": "2566-03-16",
+      "date_modified": "2566-03-16",
+      "background_color": "",
+      "subject": ""
+    },
+    {
+      "ID": 33,
+      "title": "New Ttems",
+      "date_created": "2566-03-16",
+      "date_modified": "2566-03-16",
+      "background_color": "",
+      "subject": ""
+    },
+    {
+      "ID": 34,
+      "title": "New Ttems",
+      "date_created": "2566-03-16",
+      "date_modified": "2566-03-16",
+      "background_color": "",
+      "subject": ""
+    },
+    {
+      "ID": 35,
+      "title": "New Ttems",
+      "date_created": "2566-03-16",
+      "date_modified": "2566-03-16",
+      "background_color": "",
+      "subject": ""
+    },
+    {
+      "ID": 36,
+      "title": "New Ttems",
+      "date_created": "2566-03-16",
+      "date_modified": "2566-03-16",
+      "background_color": "",
+      "subject": ""
+    },
+    {
+      "ID": 37,
+      "title": "New Ttems",
+      "date_created": "2566-03-17",
+      "date_modified": "2566-03-17",
+      "background_color": "",
+      "subject": ""
+    },
+    {
+      "ID": 38,
+      "title": "New Ttems",
+      "date_created": "2566-03-17",
+      "date_modified": "2566-03-17",
+      "background_color": "",
+      "subject": ""
+    }
+  ]
+}

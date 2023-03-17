@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "d2slAkMI3WXFeaMfRA4DRX+TKHh5W03KpBCuwb8BSOhNUOtKvFGEEBa3vPA54aQbI892ErTrY5i3SaAQRmeACw==",
+  "dgSpecHash": "x5mUBf6RnUPZcBh3EWCL7XJdNsHVdjdcqU4jqi2j6Q2/FG9VQmralDglWpUUi+qjB32US8VXT3RH68W44Otzag==",
   "success": true,
   "projectFilePath": "C:\\Users\\pools\\OneDrive\\เดสก์ท็อป\\deknote\\deknote For Windows\\deknote\\deknote.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pools\\.nuget\\packages\\microsoft.web.webview2\\1.0.1587.40\\microsoft.web.webview2.1.0.1587.40.nupkg.sha512",
-    "C:\\Users\\pools\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
-    "C:\\Users\\pools\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\pools\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\pools\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\pools\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -23,6 +23,14 @@
       "date_modified": "2566-03-15",
       "background_color": "#5DADE2",
       "subject": "ผลเปรียบเทียบผลผลิด\r\nเช่น ผัก ผลไม้ และ พืชผลต่างที่เตรียมไว้สำหรับเรื่องนี้โดยเฉพาะ\r\n\r\n        <child>\r\n          <object class=\"GtkSpinner\" id=\"spinner_thumbnail\">\r\n            <property name=\"visible\">True</property>\r\n            <property name=\"active\">True</property>\r\n          </object>\r\n        </child>\r\nนี้คือตัวอย่างโค้ดสำหรับงานนี้ คือ การใช้งานอย่างถูกต้อง เป็นไปตามที่กำหนด\r\nเช่นการเปรียบเทียบงาน"
+    },
+    {
+      "ID": 4,
+      "title": "New Ttems",
+      "date_created": "2566-03-16",
+      "date_modified": "2566-03-16",
+      "background_color": "",
+      "subject": ""
     }
   ]
 }

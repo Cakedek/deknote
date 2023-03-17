@@ -14,7 +14,7 @@
             </Rectangle.Effect>
         </Rectangle>
         <ListBox x:Name="preference_list" d:ItemsSource="{d:SampleData ItemCount=5}" HorizontalAlignment="Left" Width="200" Margin="0,47,0,0" BorderBrush="{x:Null}"/>
-        <TextBlock Margin="10,10,412,0" TextWrapping="Wrap" Text="Preference" FontFamily="{DynamicResource PromptMediumFontFamily}" FontSize="20" Height="37" VerticalAlignment="Top"/>
+        <TextBlock Margin="10,10,412,0" TextWrapping="Wrap" Text="Preference" FontSize="20" Height="37" VerticalAlignment="Top" FontFamily="Prompt"/>
 
     </Grid>
 </Window>

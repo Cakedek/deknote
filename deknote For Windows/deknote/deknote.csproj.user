@@ -7,27 +7,27 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="about.xaml.cs">
+    <Compile Update="cake_about.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="cake_welcome.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="preference.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="welcome.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="about.xaml">
+    <Page Update="cake_about.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="cake_welcome.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="preference.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="welcome.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
